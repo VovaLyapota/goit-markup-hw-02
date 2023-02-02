@@ -1,0 +1,162 @@
+/* logo and button colors: #4D5AE5 */
+/* header second logo color: #F4F4FD */
+/* header first logo, section-title, list-title color: #2E2F42 */
+/* address, section-text color: #434455 */
+/* hero-title, hero-button color: #FFFFFF */
+/* underline-logo color: #E7E9FC */
+
+:root {
+  --main-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-text-color: #4d5ae5;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--main-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.first-logo.text {
+  color: #2e2f42;
+}
+
+.second-logo.text {
+  color: #e7e9fc;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav {
+  list-style-type: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.addres-links {
+  list-style-type: none;
+}
+.address-link {
+  color: var(--main-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-button {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  background: var(--accent-text-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.invisible-title {
+  display: none;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list-title {
+  background-color: var(--primary-white-color);
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #e7e9fc;
+}
+
+.buttons-list {
+  list-style-type: none;
+}
+
+.radio-button {
+  color: var(--accent-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.radio-button:hover,
+.radio-button:focus {
+  color: #ffffff;
+  background: #404bbf;
+  border: #404bbf;
+}
