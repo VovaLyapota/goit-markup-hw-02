@@ -98,6 +98,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .invisible-title {
@@ -159,4 +160,5 @@ body {
   color: #ffffff;
   background: #404bbf;
   border: #404bbf;
+  cursor: pointer;
 }
