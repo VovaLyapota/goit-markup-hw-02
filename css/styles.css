@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-  color: #4d5ae5;
+  color: var(--accent-text-color);
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -36,7 +36,7 @@ body {
 }
 
 .first-logo.text {
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .second-logo.text {
@@ -62,7 +62,7 @@ body {
   color: var(--accent-text-color);
 }
 
-.addres-links {
+.address-links {
   list-style-type: none;
 }
 .address-link {
@@ -141,7 +141,7 @@ body {
   list-style-type: none;
 }
 
-.radio-button {
+.filter-button {
   color: var(--accent-text-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -154,8 +154,8 @@ body {
   border-radius: 4px;
 }
 
-.radio-button:hover,
-.radio-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: #ffffff;
   background: #404bbf;
   border: #404bbf;
