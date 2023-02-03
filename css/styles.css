@@ -187,5 +187,5 @@ body {
 .filter-button.current {
   color: var(--primary-white-color);
   background: var(--button-accent-color);
-  border: var(--button-accent-color);
+  border-color: var(--button-accent-color);
 }
